@@ -1,0 +1,40 @@
+.brand-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 64px;
+  min-width: 120px;
+  flex-shrink: 0;
+}
+.brand-logo-lg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-height: 72px;
+  max-width: 220px;
+  flex-shrink: 0;
+}
+
+.brand-logo img {
+  max-height: 56px;
+  max-width: 180px;
+  width: auto;
+  object-fit: contain;
+  filter: brightness(0) invert(1) opacity(0.55);
+  transition: filter 0.35s ease;
+}
+.brand-logo:hover img {
+  filter: brightness(0) invert(1) opacity(1);
+}
+
+.brand-logo-lg img {
+  max-height: 120px;
+  max-width: 200px;
+  width: auto;
+  object-fit: contain;
+  filter: brightness(0) invert(1) opacity(0.55);
+  transition: filter 0.35s ease;
+}
+.brand-logo-lg:hover img {
+  filter: brightness(0) invert(1) opacity(1);
+}
